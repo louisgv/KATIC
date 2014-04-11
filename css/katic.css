@@ -1,0 +1,47 @@
+@font-face { 
+	font-family: AudioWare; 
+	src: url('../font/Aw.ttf');
+}
+
+body{
+	background-color: #000000;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.main{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	font-family: AudioWare, cursive;
+	font-size: 100pt;
+}
+#dot {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.object {
+	position: absolute;
+	-webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+#K1 {
+	position: fixed;
+	left: -10px;
+}
+#nameD {
+    text-align: center;
+	top: 50;
+	left: 50;
+}
+.sub {
+	visibility: hidden;
+}
+
+#nameP{
+	visibility: hidden;
+}
